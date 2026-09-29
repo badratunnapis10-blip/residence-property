@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skill Residence - Hunian Modern Berkualitas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- ==== ANIMATE ON SCROLL CSS CDN ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="logo">
+        <a href="./index.html" style="text-decoration: none;">
+          <h2>MySkill <br> <span id="black-title">Residence.</span></h2>
+        </a>
+      </div>
+
+      <div class="nav_menu" id="nav_menu">
+        <button class="close_btn" id="close_btn" aria-label="Tutup Menu">
+          <i class="fa fa-arrow-right"></i>
+        </button>
+
+        <ul class="nav_menu_list">
+          <li class="nav_menu_item">
+            <a href="./index.html" class="nav_menu_link menu_active">Beranda</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./tipe_rumah.html" class="nav_menu_link">Tipe Rumah</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./tentang.html" class="nav_menu_link">Tentang Kami</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./kontak.html" class="nav_menu_link">Kontak</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./blog.html" class="nav_menu_link">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="toggle_btn" id="toggle_btn" aria-label="Buka Menu">
+        <i class="fa fa-bars"></i>
+      </button>
+
+    </nav>
+  </header>
+  <!-- header -->
+
+  <!-- section beranda -->
+  <section class="wrapper-home" id="home">
+    <div class="container">
+      <div class="grid-cols-2">
+        <div class="grid-item-1">
+          <h1 class="main-heading">
+            Selamat datang di <span> MySkill Residence.</span>
+          </h1>
+          <p class="info-text">
+            Hunian Bergaya Modern untuk Kehidupan Berkualitas. Rumah menjadi tempat untuk melanjutkan mimpi. Mulailah
+            cerita serta harapan baru keluarga tercinta Anda di MySkill Residence.
+          </p>
+
+          <div class="btn_wrapper">
+            <a href="./kontak.html" class="btn_home view_more_btn text-decoration-none">
+              Kontak Kami <i class="fa fa-phone ms-2"></i>
+            </a>
+            <a href="./tipe_rumah.html" class="btn_home documentation_btn text-decoration-none">
+              Info Detail
+            </a>
+          </div>
+        </div>
+        <div class="grid-item-2">
+          <div class="team_img_wrapper">
+            <img src="./img/home.png" alt="MySkill Residence Home" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section beranda -->
+
+  <!-- section fasilitas -->
+  <div class="container pt-4 pb-4 mt-2 mb-3 fasilitas" id="fasilitas">
+    <h1 class="text-center my-5">Fasilitas Yang Dimiliki</h1>
+    <br><br>
+
+    <!-- Fasilitas 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2>Kolam Renang Infinity</h2>
+        <p>Nikmati momen istimewa berenang di kolam renang infinity kami yang memukau. Dengan desain yang memadukan
+          kemewahan dan keindahan, Anda dapat menyelam sambil menikmati panorama lingkungan yang spektakuler. Kolam renang ini
+          tidak hanya menjadi tempat untuk berolahraga, tetapi juga sarana terbaik untuk melepaskan penat dan meresapi kenyamanan
+          lingkungan hunian Anda.</p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="./img/kolam renang.jpg" alt="Kolam Renang Infinity" class="img-fluid rounded" />
+      </div>
+    </div>
+
+    <!-- Fasilitas 2 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <img src="./img/gym.jpg" alt="Pusat Kebugaran Modern" class="img-fluid rounded" />
+      </div>
+      <div class="col-md-6">
+        <h2>Pusat Kebugaran Berstandar Tinggi</h2>
+        <p>Jadilah sehat dan bugar di pusat kebugaran kami yang dilengkapi dengan peralatan modern dan fasilitas
+          lengkap. Dengan atmosfer yang nyaman dan eksklusif, sarana gym ini menjadi pusat transformasi gaya hidup sehat,
+          memungkinkan Anda dan keluarga tetap aktif setiap saat.</p>
+      </div>
+    </div>
+
+    <!-- Fasilitas 3 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2>Restoran dan Kafe Eksklusif</h2>
+        <p>Nikmati sajian kopi berkualitas dan aneka kuliner lezat di kafe eksklusif dalam area residensial. Tanpa harus menghadapi
+          kemacetan kota, Anda dapat bersantai, bekerja secara fleksibel, maupun menjamu kerabat dalam suasana yang nyaman
+          dan bersahabat.</p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="./img/tempat ngopi.jpg" alt="Restoran dan Kafe Eksklusif" class="img-fluid rounded" />
+      </div>
+    </div>
+
+    <!-- Fasilitas 4 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <img src="./img/taman.jpg" alt="Taman Hijau Asri" class="img-fluid rounded" />
+      </div>
+      <div class="col-md-6">
+        <h2>Taman Indah dan Ruang Terbuka Hijau</h2>
+        <p>Bersantai di taman asri yang dikelilingi pepohonan rindang dan area hijau terawat. Tempat ini menjadi sanctuary alami
+          yang sempurna untuk jalan pagi, bermain bersama anak, atau sekadar melepas lelah di tengah kesejukan udara segar.</p>
+      </div>
+    </div>
+
+    <!-- Fasilitas 5 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2>Sistem Keamanan 24/7 dengan CCTV</h2>
+        <p>MySkill Residence memprioritaskan rasa aman Anda. Kami menghadirkan sistem keamanan satu gerbang (one-gate system)
+          dengan pengawasan CCTV 24 jam penuh serta tim keamanan profesional yang berpatroli secara berkala di seluruh area kawasan.</p>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+        <img src="./img/cctv.jpg" alt="Sistem Keamanan 24/7 CCTV" class="img-fluid rounded" />
+      </div>
+    </div>
+  </div>
+  <!-- section fasilitas -->
+
+  <!-- Footer-->
+  <footer class="footer">
+    <div>Copyright &copy; E-Learning MySkill 2024. All rights reserved.</div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- ==== ANIMATE ON SCROLL JS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- ==== GSAP CDN ==== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+  <!-- ==== SCRIPT.JS ==== -->
+  <script src="./js/script.js" defer></script>
+</body>
+
+</html>

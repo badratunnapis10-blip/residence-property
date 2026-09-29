@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - My Skill Residence</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+      <!-- navbar -->
+      <nav class="nav">
+        <div class="logo">
+          <a href="./index.html" style="text-decoration: none;">
+            <h2>MySkill <br> <span id="black-title">Residence.</span></h2>
+          </a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn" aria-label="Tutup Menu">
+            <i class="fa fa-arrow-right"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="./index.html" class="nav_menu_link">Beranda</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tipe_rumah.html" class="nav_menu_link">Tipe Rumah</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./tentang.html" class="nav_menu_link menu_active">Tentang Kami</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./kontak.html" class="nav_menu_link">Kontak</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="./blog.html" class="nav_menu_link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn" aria-label="Buka Menu">
+          <i class="fa fa-bars"></i>
+        </button>
+
+      </nav>
+    </header>
+    <!-- header -->
+
+    <!-- section title -->
+    <section class="wrapper-content tentang" id="home">
+        <div class="container-fluid">
+            <div class="row" id="content-title">
+                <div class="col-md-12 text-center">
+                    <h2>Tentang Kami</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section title -->
+
+    <!-- content -->
+    <div class="container pt-4 pb-4 mt-2 mb-4 tentang">
+        <div class="card p-4 p-md-5" style="background-color: #edf6f7; border-radius: 24px; border: none;">
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center mb-4 mb-md-0">
+                    <img src="./img/logo.png" alt="MySkill Residence Logo" class="img-fluid" width="300"/>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="fw-bold mb-3" style="color: #161c2d;">MySkill Residence</h2>
+                    <p style="color: #54677d; line-height: 1.8; text-align: justify;">
+                        Selamat datang di <b>MySkill Residence</b>, suatu persembahan hunian modern yang menggabungkan kenyamanan, keamanan, dan gaya hidup unggul. Kami bangga menjadi pilihan utama bagi keluarga yang mendambakan tempat tinggal mewah yang memenuhi standar arsitektur dan kualitas lingkungan hidup terbaik.
+                    </p>
+                    <hr class="my-4" style="border-color: #d0e7e9;">
+
+                    <h5 class="fw-bold text-dark mb-2"><i class="fa fa-bullseye text-primary me-2"></i> Visi dan Misi Kami</h5>
+                    <p style="color: #54677d; line-height: 1.8; text-align: justify;">
+                        Di MySkill Residence, kami memiliki visi untuk menciptakan komunitas residensial yang harmonis, aman, dan berkelanjutan. Misi kami adalah menghadirkan hunian yang tidak hanya menjawab kebutuhan ruang tempat tinggal, tetapi juga menumbuhkan kebahagiaan dan gaya hidup sehat bagi setiap generasi penghuni.
+                    </p>
+
+                    <h5 class="fw-bold text-dark mt-4 mb-2"><i class="fa fa-star text-primary me-2"></i> Nilai &amp; Filosofi Unggulan</h5>
+                    <ul class="ps-3 mb-4" style="color: #54677d; line-height: 1.8;">
+                        <li class="mb-2"><b>1. Inovasi Desain Tanpa Batas:</b> Perpaduan estetika modern, ventilasi udara alami, dan efisiensi energi.</li>
+                        <li class="mb-2"><b>2. Kenyamanan Paripurna:</b> Perhatian detail pada setiap material bangunan dan fasilitas terpadu.</li>
+                        <li class="mb-2"><b>3. Keamanan &amp; Privasi Terjaga:</b> One-gate security system didukung teknologi monitoring 24/7.</li>
+                    </ul>
+
+                    <p style="color: #54677d; font-style: italic;">
+                        MySkill Residence bukan sekadar tempat berteduh, ini adalah awal dari kisah sukses dan kebahagiaan Anda. Selamat datang di rumah baru Anda!
+                    </p>
+
+                    <a href="./kontak.html" class="btn_home view_more_btn mt-4 text-decoration-none">
+                        Hubungi Kami <i class="fa fa-phone ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content -->
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div>Copyright &copy; E-Learning MySkill 2024. All rights reserved.</div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
